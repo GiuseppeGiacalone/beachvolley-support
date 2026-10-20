@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Beach Volley The Game</title>
+  <meta name="description" content="Privacy Policy for Beach Volley The Game">
+  <style>
+    :root {
+      --bg: #fff8e7;
+      --card: #ffffff;
+      --text: #1d2a35;
+      --muted: #647381;
+      --accent: #147c91;
+      --accent-2: #e5a83a;
+      --border: #e8e1d2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #147c91, #2a9eb1);
+      color: white;
+      padding: 48px 20px 40px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0; opacity: .92; }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 28px auto 48px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(22px, 5vw, 48px);
+      box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+    .lang {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-bottom: 24px;
+    }
+    .lang button {
+      border: 1px solid var(--accent);
+      background: white;
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .lang button.active {
+      background: var(--accent);
+      color: white;
+    }
+    h2 { color: var(--accent); margin-top: 34px; }
+    h3 { margin-top: 24px; }
+    a { color: var(--accent); }
+    .notice {
+      border-left: 4px solid var(--accent-2);
+      background: #fff8e8;
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .placeholder {
+      background: #fff1f0;
+      border: 1px solid #ffc9c4;
+      border-radius: 8px;
+      padding: 2px 6px;
+      font-weight: 700;
+    }
+    .small { color: var(--muted); font-size: .94rem; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 20px 36px;
+      font-size: .9rem;
+    }
+    [data-lang="en"] { display: none; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Beach Volley The Game</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+  <div class="lang">
+    <button id="btn-it" class="active" onclick="setLang('it')">Italiano</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <section data-lang="it">
+    <p class="small"><strong>Ultimo aggiornamento:</strong> 20 ottobre 2026</p>
+
+    <div class="notice">
+      Prima della pubblicazione sostituisci
+      <span class="placeholder">[NOME SVILUPPATORE / EDITORE]</span> e
+      <span class="placeholder">[EMAIL DI CONTATTO]</span>.
+    </div>
+
+    <h2>1. Titolare e contatti</h2>
+    <p>
+      Questa Privacy Policy descrive come vengono trattati i dati nell'app
+      <strong>Beach Volley The Game</strong>.
+    </p>
+    <p>
+      Titolare: <span class="placeholder">[NOME SVILUPPATORE / EDITORE]</span><br>
+      Contatto privacy: <a href="mailto:[EMAIL DI CONTATTO]">[EMAIL DI CONTATTO]</a>
+    </p>
+
+    <h2>2. Dati trattati</h2>
+
+    <h3>Account e autenticazione</h3>
+    <p>
+      Il gioco utilizza <strong>Unity Authentication</strong> e
+      <strong>Unity Player Accounts</strong>. Il gioco può creare inizialmente un
+      profilo anonimo identificato da un Player ID. Se l'utente decide di collegare
+      un account, Unity Player Accounts può trattare l'indirizzo email dell'utente
+      e genera un identificativo univoco dell'account. Il gioco utilizza inoltre
+      un Player Name / nome visualizzato scelto o assegnato al giocatore.
+    </p>
+
+    <h3>Salvataggio nel cloud</h3>
+    <p>
+      Il gioco utilizza <strong>Unity Cloud Save</strong> per conservare dati di
+      gioco associati al Player ID, tra cui statistiche e progressi come partite
+      giocate, vittorie, sconfitte, set vinti e persi, serie di vittorie e relativi
+      record. Unity Cloud Save tratta inoltre dati tecnici necessari al servizio,
+      come il Player ID e l'indirizzo IP.
+    </p>
+
+    <h3>Classifiche</h3>
+    <p>
+      Il gioco utilizza <strong>Unity Leaderboards</strong>. Per la classifica
+      generale VS CPU possono essere utilizzati il Player ID, il Player Name, il
+      numero di vittorie e la posizione in classifica. Il Player Name, il punteggio
+      e la posizione possono essere visibili agli altri giocatori. Il servizio
+      tratta inoltre dati tecnici necessari al funzionamento, come Player ID e
+      indirizzo IP.
+    </p>
+
+    <h3>Pubblicità</h3>
+    <p>
+      Il gioco utilizza <strong>Unity LevelPlay</strong> per mostrare annunci
+      pubblicitari, inclusi banner e annunci interstitial. In base alla
+      configurazione, alle scelte di consenso dell'utente e ai partner pubblicitari
+      coinvolti, possono essere trattati dati tecnici del dispositivo,
+      identificatori pubblicitari e informazioni relative alla visualizzazione o
+      interazione con gli annunci. Eventuali reti pubblicitarie integrate tramite
+      mediazione possono trattare dati secondo le proprie informative privacy.
+    </p>
+
+    <h2>3. Finalità del trattamento</h2>
+    <p>I dati vengono trattati, a seconda del servizio utilizzato, per:</p>
+    <ul>
+      <li>creare e gestire il profilo del giocatore;</li>
+      <li>consentire l'accesso allo stesso profilo su dispositivi compatibili;</li>
+      <li>salvare e recuperare statistiche e progressi di gioco;</li>
+      <li>mostrare classifiche e posizione del giocatore;</li>
+      <li>garantire sicurezza, integrità e funzionamento dei servizi;</li>
+      <li>mostrare e misurare annunci pubblicitari, ove applicabile.</li>
+    </ul>
+
+    <h2>4. Base giuridica</h2>
+    <p>
+      Quando applicabile, i trattamenti necessari a fornire funzionalità richieste
+      dall'utente vengono effettuati per l'esecuzione del servizio richiesto.
+      Alcuni trattamenti possono essere basati sul legittimo interesse a garantire
+      sicurezza e corretto funzionamento del gioco. Per pubblicità personalizzata,
+      identificatori pubblicitari o altri trattamenti che richiedono consenso
+      secondo la normativa applicabile, il consenso viene richiesto ove necessario.
+    </p>
+
+    <h2>5. Fornitori e destinatari</h2>
+    <p>
+      Per le funzionalità descritte il gioco utilizza servizi forniti da
+      <strong>Unity Technologies</strong>, inclusi Unity Player Accounts,
+      Authentication, Cloud Save, Leaderboards e LevelPlay.
+    </p>
+    <p>
+      Per maggiori informazioni sul trattamento svolto da Unity consulta la
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">
+        Game Player and App User Privacy Policy di Unity
+      </a>.
+    </p>
+
+    <h2>6. Conservazione dei dati</h2>
+    <p>
+      I dati vengono conservati per il tempo necessario a fornire le funzionalità
+      richieste e secondo i periodi di conservazione previsti dai servizi Unity
+      utilizzati. I dati di Cloud Save rimangono associati al giocatore fino alla
+      loro eliminazione o finché risultano necessari per il servizio. L'eliminazione
+      del solo Unity Player Account non comporta automaticamente la cancellazione
+      di tutti i dati associati agli altri servizi del gioco.
+    </p>
+
+    <h2>7. Eliminazione dell'account e dei dati</h2>
+    <p>
+      L'utente può richiedere l'eliminazione dei dati associati a
+      <strong>Beach Volley The Game</strong> seguendo le istruzioni disponibili
+      nella pagina:
+      <a href="delete-account.html">Eliminazione account e dati</a>.
+    </p>
+    <p>
+      Per eliminare direttamente il proprio <strong>Unity Player Account</strong>,
+      l'utente può inoltre utilizzare il portale ufficiale Unity:
+      <a href="https://player-account.unity.com/delete-account" target="_blank" rel="noopener">
+        Unity Player Account - Delete Account
+      </a>.
+      La cancellazione del Unity Player Account e la cancellazione dei dati
+      dell'app sono processi distinti.
+    </p>
+
+    <h2>8. Diritti dell'utente</h2>
+    <p>
+      In base alla normativa applicabile, l'utente può avere diritto a richiedere
+      accesso, rettifica, cancellazione, limitazione o portabilità dei propri dati
+      e a opporsi ad alcuni trattamenti. Le richieste relative ai dati gestiti
+      direttamente dall'editore possono essere inviate a
+      <a href="mailto:[EMAIL DI CONTATTO]">[EMAIL DI CONTATTO]</a>.
+    </p>
+    <p>
+      Per richieste relative specificamente a Unity Player Accounts, Unity mette
+      inoltre a disposizione il contatto
+      <a href="mailto:unity-player-login-privacy@unity3d.com">
+        unity-player-login-privacy@unity3d.com
+      </a>.
+    </p>
+
+    <h2>9. Minori</h2>
+    <p>
+      Il gioco e i servizi di account devono essere utilizzati nel rispetto delle
+      norme applicabili alla protezione dei minori. Non vengono intenzionalmente
+      raccolti dati personali di minori in violazione della normativa applicabile.
+      L'utilizzo di Unity Player Accounts da parte di utenti minorenni è soggetto
+      anche ai requisiti previsti da Unity e, ove richiesto, al consenso verificato
+      di un genitore o tutore.
+    </p>
+
+    <h2>10. Sicurezza</h2>
+    <p>
+      Vengono adottate misure ragionevoli per proteggere i dati. I servizi online
+      utilizzati dal gioco sono gestiti tramite infrastrutture Unity e comunicazioni
+      di rete protette secondo le caratteristiche dei relativi servizi.
+    </p>
+
+    <h2>11. Modifiche a questa Privacy Policy</h2>
+    <p>
+      Questa informativa può essere aggiornata quando vengono aggiunte o modificate
+      funzionalità, servizi o modalità di trattamento. La data dell'ultimo
+      aggiornamento è indicata all'inizio della pagina.
+    </p>
+  </section>
+
+  <section data-lang="en">
+    <p class="small"><strong>Last updated:</strong> October 20, 2026</p>
+
+    <div class="notice">
+      Before publishing, replace
+      <span class="placeholder">[DEVELOPER / PUBLISHER NAME]</span> and
+      <span class="placeholder">[CONTACT EMAIL]</span>.
+    </div>
+
+    <h2>1. Controller and contact details</h2>
+    <p>
+      This Privacy Policy describes how data is handled in
+      <strong>Beach Volley The Game</strong>.
+    </p>
+    <p>
+      Controller: <span class="placeholder">[DEVELOPER / PUBLISHER NAME]</span><br>
+      Privacy contact: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>
+    </p>
+
+    <h2>2. Data processed</h2>
+
+    <h3>Account and authentication</h3>
+    <p>
+      The game uses <strong>Unity Authentication</strong> and
+      <strong>Unity Player Accounts</strong>. The game may initially create an
+      anonymous profile identified by a Player ID. If the user chooses to link an
+      account, Unity Player Accounts may process the user's email address and
+      generates a unique account identifier. The game also uses a Player Name /
+      display name selected or assigned to the player.
+    </p>
+
+    <h3>Cloud storage</h3>
+    <p>
+      The game uses <strong>Unity Cloud Save</strong> to store game data associated
+      with the Player ID, including statistics and progress such as matches played,
+      wins, losses, sets won and lost, current win streaks and best win streaks.
+      Unity Cloud Save also processes technical data required to provide the
+      service, such as Player ID and IP address.
+    </p>
+
+    <h3>Leaderboards</h3>
+    <p>
+      The game uses <strong>Unity Leaderboards</strong>. The VS CPU global
+      leaderboard may use the Player ID, Player Name, number of wins and leaderboard
+      rank. Player Name, score and rank may be visible to other players. The service
+      also processes technical information required for operation, including Player
+      ID and IP address.
+    </p>
+
+    <h3>Advertising</h3>
+    <p>
+      The game uses <strong>Unity LevelPlay</strong> to display advertising,
+      including banner and interstitial ads. Depending on configuration, user
+      consent choices and advertising partners involved, device technical data,
+      advertising identifiers and information about ad views or interactions may
+      be processed. Advertising networks included through mediation may process
+      data according to their own privacy policies.
+    </p>
+
+    <h2>3. Purposes of processing</h2>
+    <p>Depending on the service used, data may be processed to:</p>
+    <ul>
+      <li>create and manage the player's profile;</li>
+      <li>allow access to the same profile on supported devices;</li>
+      <li>save and retrieve gameplay statistics and progress;</li>
+      <li>display leaderboards and the player's ranking;</li>
+      <li>provide security, integrity and operation of the services;</li>
+      <li>display and measure advertising where applicable.</li>
+    </ul>
+
+    <h2>4. Legal bases</h2>
+    <p>
+      Where applicable, processing necessary to provide features requested by the
+      user is carried out to perform the requested service. Certain processing may
+      rely on legitimate interests in maintaining security and proper operation of
+      the game. Where personalized advertising, advertising identifiers or other
+      processing requires consent under applicable law, consent is requested when
+      required.
+    </p>
+
+    <h2>5. Service providers and recipients</h2>
+    <p>
+      The game uses services provided by <strong>Unity Technologies</strong>,
+      including Unity Player Accounts, Authentication, Cloud Save, Leaderboards
+      and LevelPlay.
+    </p>
+    <p>
+      For more information about Unity's processing, see the
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">
+        Unity Game Player and App User Privacy Policy
+      </a>.
+    </p>
+
+    <h2>6. Data retention</h2>
+    <p>
+      Data is retained for as long as necessary to provide the requested features
+      and according to the retention periods of the Unity services used. Cloud Save
+      data remains associated with the player until it is deleted or while it is
+      required to provide the service. Deleting only the Unity Player Account does
+      not automatically delete all data associated with the game's other services.
+    </p>
+
+    <h2>7. Account and data deletion</h2>
+    <p>
+      Users may request deletion of data associated with
+      <strong>Beach Volley The Game</strong> by following the instructions on:
+      <a href="delete-account.html">Account and data deletion</a>.
+    </p>
+    <p>
+      Users may also delete their <strong>Unity Player Account</strong> directly
+      through Unity's official portal:
+      <a href="https://player-account.unity.com/delete-account" target="_blank" rel="noopener">
+        Unity Player Account - Delete Account
+      </a>.
+      Deleting the Unity Player Account and deleting game-specific data are
+      separate processes.
+    </p>
+
+    <h2>8. User rights</h2>
+    <p>
+      Depending on applicable law, users may have the right to request access,
+      correction, deletion, restriction or portability of their personal data and
+      to object to certain processing. Requests concerning data controlled directly
+      by the publisher may be sent to
+      <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>.
+    </p>
+    <p>
+      For requests specifically concerning Unity Player Accounts, Unity also
+      provides:
+      <a href="mailto:unity-player-login-privacy@unity3d.com">
+        unity-player-login-privacy@unity3d.com
+      </a>.
+    </p>
+
+    <h2>9. Children</h2>
+    <p>
+      The game and account services must be used in accordance with applicable
+      children's privacy laws. Personal data from children is not knowingly
+      collected in violation of applicable law. Use of Unity Player Accounts by
+      minors is also subject to Unity's requirements and, where required, verified
+      parental consent.
+    </p>
+
+    <h2>10. Security</h2>
+    <p>
+      Reasonable measures are used to protect data. Online services used by the
+      game are provided through Unity infrastructure and network communications
+      protected according to the characteristics of the relevant services.
+    </p>
+
+    <h2>11. Changes to this Privacy Policy</h2>
+    <p>
+      This policy may be updated when features, services or processing practices
+      change. The date of the latest revision is shown at the top of this page.
+    </p>
+  </section>
+</main>
+
+<footer>
+  Beach Volley The Game — Privacy Policy
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-lang]').forEach(function(el) {
+      el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+    });
+    document.getElementById('btn-it').classList.toggle('active', lang === 'it');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  }
+</script>
+</body>
+</html>
