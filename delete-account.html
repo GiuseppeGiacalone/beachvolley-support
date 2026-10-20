@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliminazione account e dati - Beach Volley The Game</title>
+  <meta name="description" content="Richiesta di eliminazione account e dati per Beach Volley The Game">
+  <style>
+    :root {
+      --bg: #fff8e7;
+      --card: #ffffff;
+      --text: #1d2a35;
+      --muted: #647381;
+      --accent: #147c91;
+      --accent-dark: #0f6171;
+      --accent-2: #e5a83a;
+      --danger: #b64036;
+      --danger-bg: #fff2f0;
+      --border: #e8e1d2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    header {
+      background: linear-gradient(135deg, #147c91, #2a9eb1);
+      color: white;
+      padding: 48px 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    header p {
+      margin: 0;
+      opacity: .92;
+    }
+
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 28px auto 48px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(22px, 5vw, 48px);
+      box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+
+    .lang {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-bottom: 24px;
+    }
+
+    .lang button {
+      border: 1px solid var(--accent);
+      background: white;
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .lang button.active {
+      background: var(--accent);
+      color: white;
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-top: 34px;
+    }
+
+    h3 {
+      margin-top: 24px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent-2);
+      background: #fff8e8;
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .important {
+      border-left: 4px solid var(--danger);
+      background: var(--danger-bg);
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .placeholder {
+      background: #fff1f0;
+      border: 1px solid #ffc9c4;
+      border-radius: 8px;
+      padding: 2px 6px;
+      font-weight: 700;
+    }
+
+    .cta {
+      display: inline-block;
+      margin: 10px 0 6px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .cta:hover {
+      background: var(--accent-dark);
+    }
+
+    .secondary {
+      background: white;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+    }
+
+    .steps {
+      padding-left: 22px;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: .94rem;
+    }
+
+    code {
+      background: #f3f6f7;
+      border-radius: 6px;
+      padding: 2px 6px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 20px 36px;
+      font-size: .9rem;
+    }
+
+    [data-lang="en"] { display: none; }
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>Beach Volley The Game</h1>
+  <p>Account & Data Deletion</p>
+</header>
+
+<main>
+  <div class="lang">
+    <button id="btn-it" class="active" onclick="setLang('it')">Italiano</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <section data-lang="it">
+    <p class="small"><strong>Ultimo aggiornamento:</strong> 20 ottobre 2026</p>
+
+    <div class="notice">
+      Prima della pubblicazione sostituisci
+      <span class="placeholder">[NOME SVILUPPATORE / EDITORE]</span> e
+      <span class="placeholder">[EMAIL DI CONTATTO]</span>.
+    </div>
+
+    <h2>Richiedi l'eliminazione dell'account e dei dati</h2>
+
+    <p>
+      Questa pagina permette agli utenti di <strong>Beach Volley The Game</strong>
+      di richiedere l'eliminazione dell'account dell'app e dei dati associati,
+      anche se l'app non è più installata sul dispositivo.
+    </p>
+
+    <p>
+      Per avviare la richiesta, invia un'email a
+      <a href="mailto:[EMAIL DI CONTATTO]?subject=Richiesta%20eliminazione%20account%20-%20Beach%20Volley%20The%20Game">
+        [EMAIL DI CONTATTO]
+      </a>
+      indicando nell'oggetto:
+    </p>
+
+    <p><code>Richiesta eliminazione account - Beach Volley The Game</code></p>
+
+    <a class="cta"
+       href="mailto:[EMAIL DI CONTATTO]?subject=Richiesta%20eliminazione%20account%20-%20Beach%20Volley%20The%20Game&amp;body=Desidero%20richiedere%20l%27eliminazione%20del%20mio%20account%20e%20dei%20dati%20associati%20a%20Beach%20Volley%20The%20Game.%0A%0APlayer%20Name%20%28se%20disponibile%29%3A%20%0APlayer%20ID%20%28se%20disponibile%29%3A%20%0A">
+      Richiedi eliminazione via email
+    </a>
+
+    <h2>Informazioni da includere</h2>
+
+    <p>
+      Per aiutarci a identificare correttamente i dati da eliminare, includi,
+      se disponibili:
+    </p>
+
+    <ul>
+      <li>il <strong>Player Name</strong> visualizzato nel gioco;</li>
+      <li>il <strong>Player ID</strong> associato al profilo;</li>
+      <li>qualsiasi altra informazione utile a identificare l'account senza inviare password o credenziali.</li>
+    </ul>
+
+    <div class="important">
+      <strong>Non inviare password, codici di accesso o altre credenziali.</strong>
+    </div>
+
+    <h2>Dati interessati dalla richiesta</h2>
+
+    <p>
+      La richiesta riguarda i dati dell'app associati al profilo del giocatore,
+      inclusi, ove presenti:
+    </p>
+
+    <ul>
+      <li>profilo e identificativo del giocatore utilizzati dall'app;</li>
+      <li>Player Name / nome visualizzato;</li>
+      <li>statistiche e progressi salvati tramite Unity Cloud Save;</li>
+      <li>dati e punteggi associati alle classifiche di Beach Volley The Game;</li>
+      <li>altri dati dell'app direttamente associati al Player ID.</li>
+    </ul>
+
+    <p>
+      Alcune informazioni strettamente necessarie possono essere conservate
+      quando richiesto dalla legge o per finalità legittime come sicurezza,
+      prevenzione di frodi o gestione di contestazioni. In tali casi, i dati
+      conservati saranno limitati a quanto necessario.
+    </p>
+
+    <h2>Eliminazione dall'app</h2>
+
+    <p>
+      Se la versione di Beach Volley The Game installata sul tuo dispositivo
+      include l'opzione di eliminazione account, puoi avviare la richiesta anche
+      direttamente dalla sezione <strong>Account</strong> dell'app.
+    </p>
+
+    <p>
+      La risorsa web presente in questa pagina rimane disponibile anche agli utenti
+      che hanno disinstallato l'app o non possono più accedervi.
+    </p>
+
+    <h2>Unity Player Account</h2>
+
+    <p>
+      Beach Volley The Game utilizza <strong>Unity Player Accounts</strong> per
+      consentire il collegamento e l'accesso a un account. L'eliminazione del
+      Unity Player Account è gestita direttamente da Unity e deve essere richiesta
+      dall'utente attraverso il portale ufficiale:
+    </p>
+
+    <p>
+      <a class="cta secondary"
+         href="https://player-account.unity.com/delete-account"
+         target="_blank"
+         rel="noopener">
+        Elimina Unity Player Account
+      </a>
+    </p>
+
+    <p>
+      L'eliminazione del Unity Player Account e l'eliminazione dei dati specifici
+      di Beach Volley The Game sono <strong>processi distinti</strong>. Eliminare
+      il Unity Player Account non elimina automaticamente tutti i dati salvati
+      negli altri servizi utilizzati dall'app.
+    </p>
+
+    <h2>Tempi della richiesta</h2>
+
+    <p>
+      Le richieste vengono gestite entro un periodo ragionevole e nel rispetto
+      dei termini previsti dalla normativa applicabile. Potremmo contattarti
+      esclusivamente per verificare l'identità o chiarire quali dati devono essere
+      eliminati, quando ciò sia necessario per evitare cancellazioni non autorizzate.
+    </p>
+
+    <h2>Contatti</h2>
+
+    <p>
+      Titolare / sviluppatore:
+      <span class="placeholder">[NOME SVILUPPATORE / EDITORE]</span>
+    </p>
+
+    <p>
+      Email:
+      <a href="mailto:[EMAIL DI CONTATTO]">[EMAIL DI CONTATTO]</a>
+    </p>
+
+    <p>
+      Consulta anche la
+      <a href="privacy.html">Privacy Policy di Beach Volley The Game</a>.
+    </p>
+  </section>
+
+  <section data-lang="en">
+    <p class="small"><strong>Last updated:</strong> October 20, 2026</p>
+
+    <div class="notice">
+      Before publishing, replace
+      <span class="placeholder">[DEVELOPER / PUBLISHER NAME]</span> and
+      <span class="placeholder">[CONTACT EMAIL]</span>.
+    </div>
+
+    <h2>Request account and data deletion</h2>
+
+    <p>
+      This page allows users of <strong>Beach Volley The Game</strong> to request
+      deletion of their app account and associated data, even if the app is no
+      longer installed on their device.
+    </p>
+
+    <p>
+      To start a request, email
+      <a href="mailto:[CONTACT EMAIL]?subject=Account%20deletion%20request%20-%20Beach%20Volley%20The%20Game">
+        [CONTACT EMAIL]
+      </a>
+      using the subject:
+    </p>
+
+    <p><code>Account deletion request - Beach Volley The Game</code></p>
+
+    <a class="cta"
+       href="mailto:[CONTACT EMAIL]?subject=Account%20deletion%20request%20-%20Beach%20Volley%20The%20Game&amp;body=I%20would%20like%20to%20request%20deletion%20of%20my%20Beach%20Volley%20The%20Game%20account%20and%20associated%20data.%0A%0APlayer%20Name%20%28if%20available%29%3A%20%0APlayer%20ID%20%28if%20available%29%3A%20%0A">
+      Request deletion by email
+    </a>
+
+    <h2>Information to include</h2>
+
+    <p>
+      To help identify the correct data, include the following where available:
+    </p>
+
+    <ul>
+      <li>the <strong>Player Name</strong> shown in the game;</li>
+      <li>the <strong>Player ID</strong> associated with the profile;</li>
+      <li>any other information useful to identify the account without sending passwords or credentials.</li>
+    </ul>
+
+    <div class="important">
+      <strong>Do not send passwords, access codes or other credentials.</strong>
+    </div>
+
+    <h2>Data covered by the request</h2>
+
+    <p>
+      The request covers app-specific data associated with the player's profile,
+      including, where present:
+    </p>
+
+    <ul>
+      <li>the player profile and identifier used by the app;</li>
+      <li>Player Name / display name;</li>
+      <li>statistics and progress stored through Unity Cloud Save;</li>
+      <li>data and scores associated with Beach Volley The Game leaderboards;</li>
+      <li>other app data directly associated with the Player ID.</li>
+    </ul>
+
+    <p>
+      Limited information may be retained where required by law or for legitimate
+      purposes such as security, fraud prevention or dispute handling. Any retained
+      information will be limited to what is necessary.
+    </p>
+
+    <h2>Deletion from within the app</h2>
+
+    <p>
+      If the version of Beach Volley The Game installed on your device includes
+      an account deletion option, you can also start the request directly from the
+      app's <strong>Account</strong> section.
+    </p>
+
+    <p>
+      This web resource remains available to users who have uninstalled the app or
+      can no longer access it.
+    </p>
+
+    <h2>Unity Player Account</h2>
+
+    <p>
+      Beach Volley The Game uses <strong>Unity Player Accounts</strong> for
+      linked-account access. Deletion of the Unity Player Account is handled
+      directly by Unity and must be requested by the user through Unity's official
+      portal:
+    </p>
+
+    <p>
+      <a class="cta secondary"
+         href="https://player-account.unity.com/delete-account"
+         target="_blank"
+         rel="noopener">
+        Delete Unity Player Account
+      </a>
+    </p>
+
+    <p>
+      Deleting a Unity Player Account and deleting Beach Volley The Game-specific
+      data are <strong>separate processes</strong>. Deleting the Unity Player
+      Account does not automatically delete all data stored by other services used
+      by the app.
+    </p>
+
+    <h2>Request handling time</h2>
+
+    <p>
+      Requests are handled within a reasonable period and in accordance with
+      applicable legal requirements. We may contact you only when necessary to
+      verify identity or clarify which data should be deleted, in order to prevent
+      unauthorized deletion.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+      Controller / developer:
+      <span class="placeholder">[DEVELOPER / PUBLISHER NAME]</span>
+    </p>
+
+    <p>
+      Email:
+      <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>
+    </p>
+
+    <p>
+      See also the
+      <a href="privacy.html">Beach Volley The Game Privacy Policy</a>.
+    </p>
+  </section>
+</main>
+
+<footer>
+  Beach Volley The Game — Account & Data Deletion
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.documentElement.lang = lang;
+
+    document.querySelectorAll('[data-lang]').forEach(function(el) {
+      el.style.display =
+        el.getAttribute('data-lang') === lang ? 'block' : 'none';
+    });
+
+    document.getElementById('btn-it')
+      .classList.toggle('active', lang === 'it');
+
+    document.getElementById('btn-en')
+      .classList.toggle('active', lang === 'en');
+  }
+</script>
+
+</body>
+</html>
